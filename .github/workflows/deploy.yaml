@@ -40,6 +40,7 @@ jobs:
         run: terraform validate
       - name: Plan
         run: terraform plan
-     # - name: Apply
-       # run: terraform apply -auto-approve
-       #
+      - name: Apply
+        run: terraform apply -auto-approve
+     # - name: destroy
+     #   run: terraform destroy
